@@ -1,0 +1,37 @@
+.our__partner__container {
+  padding: 48px 0;
+}
+
+.our__partner__info__block {
+  padding: 40px 0;
+  border-top: 3px solid rgb(231, 116, 46);
+  border-bottom: 3px solid rgb(231, 116, 46);
+  display: flex;
+  align-items: center;
+  gap: 34px;
+  justify-content: space-between;
+}
+
+.our__partner__title {
+  color: rgb(231, 116, 46);
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 120%;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.our__partner__text {
+  max-width: 914px;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 130%;
+}
+
+.our__partner__button__container {
+  padding: 60px 0;
+  display: flex;
+  justify-content: center;
+}

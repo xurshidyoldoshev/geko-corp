@@ -1,0 +1,79 @@
+.contact__section__container {
+  padding-top: 32px;
+  padding-bottom: 60px;
+}
+
+.contact__section__title {
+  max-width: 287px;
+  width: 100%;
+  color: rgb(11, 20, 39);
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 120%;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 12px;
+  border-bottom: 3px solid rgb(231, 116, 46);
+  margin: 0 auto 40px auto;
+}
+
+.contact__section__map {
+  max-width: 1080px;
+  width: 100%;
+  height: 412px;
+  margin-bottom: 28px;
+}
+
+.contact__section__info__block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact__section__item {
+  max-width: 436px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 0;
+}
+
+.contact__section__item:not(:last-child) {
+  border-bottom: 1px solid rgb(222, 222, 222);
+}
+
+.contact__section__item__img > svg {
+  width: 32px;
+  height: 32px;
+}
+
+.contact__section__item__title {
+  color: rgb(11, 20, 39);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.contact__section__form__block {
+  max-width: 528px;
+  width: 100%;
+}
+
+.contact__section__text {
+  color: rgb(11, 20, 39);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 140%;
+  margin-bottom: 24px;
+}
+
+.contact__section__form__title {
+  color: rgb(231, 116, 46);
+  font-size: 29px;
+  font-weight: 500;
+  line-height: 120%;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+

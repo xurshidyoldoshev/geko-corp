@@ -1,0 +1,127 @@
+.repair__techniques__container {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.repair__techniques__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, auto);
+  gap: 30px;
+}
+
+.repair__techniques__item {
+  max-width: 344px;
+  width: 100%;
+  padding: 0px 8px;
+}
+
+.repair__techniques__item__top__img__block {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 28px;
+}
+
+.repair__techniques__item__top__line {
+  height: 1px;
+  width: 100%;
+  background-color: #0b1427;
+}
+
+.repair__techniques__item__top__img {
+  object-fit: cover;
+  width: 160px;
+  height: 95px;
+}
+
+.repair__techniques__item__top__title {
+  color: rgb(11, 20, 39);
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.repair__techniques__item__bottom__item {
+  display: flex;
+  color: rgb(43, 51, 68);
+  font-size: 18px;
+  line-height: 140%;
+}
+
+.repair__techniques__item__bottom__item::before {
+  content: "";
+  width: 18px;
+  height: 25px;
+  background-image: url("../../assets/Images/ItemCheckIcon.svg");
+  background-size: cover;
+  margin-right: 12px;
+}
+
+.repair__techniques__item__bottom__button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 28px;
+  padding: 15px 32px;
+  border-radius: 10px;
+  background-color: #dedede;
+  color: rgb(11, 20, 39);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 120%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.repair__techniques__item__bottom__item__last::before {
+  content: "";
+  background-image: none !important;
+}
+
+.repair__techniques__list
+  li:nth-child(8)
+  .repair__techniques__item__bottom__item:nth-child(6) {
+  display: none;
+}
+
+@media (max-width: 1023px) {
+  .repair__techniques__container {
+    padding-top: 24px;
+    padding-bottom: 48px;
+  }
+  .repair__techniques__list {
+    display: block;
+  }
+  .repair__techniques__item {
+    max-width: 100%;
+  }
+  .repair__techniques__item:not(:last-child) {
+    margin-bottom: 24px;
+  }
+  .repair__techniques__item__bottom__list {
+    max-width: 298px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 427px) {
+  .repair__techniques__item__top__title {
+    font-size: 29px;
+  }
+
+  .repair__techniques__item__bottom__item {
+    display: flex;
+    color: rgb(43, 51, 68);
+    font-size: 18px;
+    line-height: 140%;
+  }
+  .repair__techniques__item__bottom__button {
+    padding: 20px 32px;
+    font-size: 14px;
+  }
+}

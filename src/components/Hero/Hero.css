@@ -1,0 +1,81 @@
+.header__info__block {
+  padding-bottom: 124px;
+}
+
+.modal__wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modal {
+  width: 420px;
+  height: 100vh;
+  background-color: #0b1427;
+  position: relative;
+  padding: 26px 28px 0 28px;
+}
+
+.modal.open {
+  animation: slideIn 0.4s forwards ease-in-out;
+}
+
+.modal.close {
+  animation: slideOut 0.4s forwards ease-in-out;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideOut {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.HamburgerCloseButton {
+  color: #e7742e;
+}
+
+.modal__nav__list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 27px;
+}
+
+.modal__nav__list > li {
+  padding: 16px 0;
+  border-top: 1px solid rgb(231, 116, 46);
+}
+
+.modal__nav__list > li:last-child {
+  border-bottom: 1px solid rgb(231, 116, 46);
+}
+
+.modal__nav__list > li > a {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 130%;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+  .header__info__block {
+    padding-bottom: 50px;
+  }
+}

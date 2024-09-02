@@ -1,0 +1,65 @@
+.computer__service__background {
+  background-image: url(../../assets/Images/computerServiceBg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.computer__service__title {
+  padding: 32px 0;
+  color: rgb(231, 116, 46);
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 120%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.computer__service__container {
+  padding: 44px 0;
+}
+
+.computer__service__text__first {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 140%;
+}
+
+.computer__service__text__second {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 130%;
+}
+
+.computer__service__text__three {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 140%;
+}
+
+.contact__us__line__space {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.computer__service__text__section__container {
+  padding: 28px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 28px;
+}
+
+.computer__service__text__section__info {
+  max-width: 908px;
+  width: 100%;
+  padding: 40px 0;
+  border-top: 3px solid rgb(231, 116, 46);
+  border-bottom: 3px solid rgb(231, 116, 46);
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 130%;
+}

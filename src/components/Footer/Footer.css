@@ -1,0 +1,245 @@
+.footer__container {
+  padding-top: 31px;
+  padding-bottom: 26px;
+}
+
+.footer__list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 41px;
+}
+
+.footer__item {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__item__logo {
+  margin-bottom: 40px;
+  max-width: 236px;
+  width: 100%;
+  height: 114px;
+}
+
+.footer__item__title {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 130%;
+}
+
+.footer__item__text {
+  max-width: 252px;
+  width: 100%;
+  color: rgb(180, 180, 180);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 130%;
+  margin-top: 24px;
+}
+
+.footer__item__list__head {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.footer__item__head__item__link {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.footer__item__list__service {
+  display: flex;
+  flex-direction: column;
+  gap: 11.5px;
+}
+
+.footer__item__service__item {
+  max-width: 200px;
+  width: 100%;
+}
+
+.footer__item__service__item__link {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 130%;
+}
+
+.footer__item__number__block {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 25px;
+}
+
+.footer__item__number {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 130%;
+}
+
+.footer__social__media {
+  margin-left: 0;
+  display: flex;
+}
+
+.footer__bottom__block {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 23px;
+}
+
+.footer__bottom__title__block {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.footer__bottom__title {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 130%;
+  color: white;
+}
+
+.footer__bottom__title__year {
+  color: #e7742e;
+}
+
+.footer__end__block {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.footer__end__title {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 130%;
+}
+
+.footer__end__line {
+  transform: translateY(2px);
+  height: 16px;
+  width: 3px;
+  background-color: #e7742e;
+}
+
+.footer__list__mobile {
+  display: none;
+}
+
+.contact__us__line__mobile {
+  display: none;
+}
+
+.footer__item:nth-child(1) > .footer__social__media {
+  display: none;
+}
+
+.footer__mobile__text__block {
+  display: none;
+}
+
+@media (max-width: 955px) {
+  .footer__item:nth-child(2),
+  .footer__item:nth-child(3) {
+    display: none;
+  }
+  .footer__list__mobile {
+    display: flex;
+    padding-top: 24px;
+  }
+  .footer__item__mobile {
+    display: flex !important;
+  }
+  .contact__us__line__mobile {
+    display: block;
+  }
+}
+
+@media (max-width: 615px) {
+  .footer__list {
+    flex-direction: column;
+  }
+  .footer__item:first-child {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  }
+  .footer__item__text {
+    display: none;
+  }
+  .footer__item:last-child > .footer__social__media {
+    display: none !important;
+  }
+  .footer__item > .footer__item__number__block:nth-child(5) {
+    margin-bottom: 0;
+  }
+  .footer__list__mobile {
+    display: flex;
+    flex-direction: row;
+  }
+  .footer__mobile__text__block {
+    padding-top: 25px;
+  }
+  .footer__mobile__title {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 130%;
+  }
+  .footer__mobile__text {
+    width: 100%;
+    color: rgb(180, 180, 180);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 130%;
+    margin-top: 24px;
+  }
+  .footer__end__line {
+    display: none;
+  }
+  .footer__bottom__block {
+    flex-direction: column;
+    gap: 9px;
+  }
+  .footer__item__logo {
+    width: 144px;
+    height: 69px;
+    margin-bottom: 0;
+  }
+  .footer__item:nth-child(1) > .footer__social__media {
+    display: flex;
+  }
+}
+
+@media (max-width: 380px) {
+  .footer__social__media {
+    gap: 10px;
+  }
+  .footer__item__head__item__link {
+    font-size: 13px;
+  }
+  .footer__item__list__service {
+    padding-left: 20px;
+  }
+  .footer__item__service__item__link {
+    font-size: 14px;
+  }
+  .footer__end__block {
+    gap: 5px;
+    justify-content: space-between;
+  }
+  .footer__end__title {
+    font-size: 14px;
+  }
+}

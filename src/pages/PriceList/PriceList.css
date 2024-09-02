@@ -1,0 +1,103 @@
+.price__list__title {
+  padding: 32px 0;
+  color: rgb(231, 116, 46);
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 120%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.price__list__background {
+  background-image: url(../../assets/Images/PriceListBgImg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.price__list__container {
+  padding: 38px 0;
+}
+
+.price__list__choice__block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.price__list__choice__title {
+  max-width: 390px;
+  width: 100%;
+  color: rgb(231, 116, 46);
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 130%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.price__list__choice__title__color {
+  color: white;
+}
+
+.price__list__choice__button__block {
+  display: flex;
+  align-items: center;
+  gap: 21px;
+}
+
+.price__list__choice__button__frame {
+  height: 104px;
+  width: 3px;
+  background-color: white;
+}
+
+.accordion__section__text {
+  color: rgb(11, 20, 39);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 140%;
+  margin-bottom: 39px;
+}
+
+.accordion__section {
+  padding: 40px 0;
+}
+
+.accordion__section__list {
+  margin-bottom: 40px;
+}
+
+.accordion__section__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 76px 8px 36px;
+  border-top: 1px solid rgb(222, 222, 222);
+  border-bottom: 1px solid rgb(222, 222, 222);
+}
+
+.accordion__section__item > span {
+  color: rgb(11, 20, 39);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.accordion__section__item:last-child {
+  border-top: none;
+}
+
+.accordion__section__hardware__title {
+  color: rgb(231, 116, 46);
+  font-size: 29px;
+  font-weight: 500;
+  line-height: 120%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.accordion__section__text__second {
+    margin-bottom: 0;
+    margin-top: 40px;
+}

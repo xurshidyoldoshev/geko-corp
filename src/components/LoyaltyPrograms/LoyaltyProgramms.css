@@ -1,0 +1,44 @@
+.loyalty__programms__container {
+  padding: 40px 0;
+}
+
+.loyalty__programms__title {
+  color: rgb(231, 116, 46);
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 120%;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.loyalty__programms__list {
+  max-width: 1030px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 auto;
+}
+
+.loyalty__programms__item {
+  max-width: 344px;
+  width: 100%;
+  text-align: center;
+  padding: 24px 16px;
+  position: relative;
+  border-bottom: 1px solid rgb(11, 20, 39);
+}
+
+.loyalty__programms__item:nth-child(n + 2)::before {
+  content: "";
+  position: absolute;
+  bottom: -12px;
+  left: -11px;
+  width: 23px;
+  height: 23px;
+  padding: 5px;
+  background-color: #e7742e;
+  border: 4px solid #fff;
+  border-radius: 50%;
+  z-index: 2;
+}

@@ -1,0 +1,83 @@
+.leave__feedback__background {
+  background-image: url(../../assets/Images/LeaveFeedbackBackground.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.leave__feedback__container {
+  padding: 40px 0;
+}
+
+.leave__feedback__title {
+  max-width: 528px;
+  width: 100%;
+  color: rgb(231, 116, 46);
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 120%;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 18px;
+  border-bottom: 3px solid rgb(255, 255, 255);
+  margin: 0 auto 33px auto;
+}
+
+.leave__feedback__form {
+  max-width: 528px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 0 auto;
+}
+
+.leave__feedback__form__group {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.leave__feedback__form__label {
+  color: rgb(231, 116, 46);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 140%;
+}
+
+.leave__feedback__form__input,
+.leave__feedback__form__textarea {
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid rgb(222, 222, 222);
+  outline: none;
+}
+
+.leave__feedback__form__textarea {
+  height: 204px;
+}
+
+.leave__feedback__form__consent {
+  display: flex;
+  flex-direction: row;
+}
+
+.leave__feedback__form__checkbox {
+  width: 26px;
+  height: 26px;
+}
+
+.leave__feedback__button__block {
+  display: flex;
+  justify-content: center;
+}
+
+.leave__feedback__subtitle {
+  padding: 40px 0;
+  color: rgb(231, 116, 46);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 130%;
+  text-align: center;
+}

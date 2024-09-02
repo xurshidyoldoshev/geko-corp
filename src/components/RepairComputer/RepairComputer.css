@@ -1,0 +1,45 @@
+.repair__computer__background {
+  background-image: url(../../assets/Images/RepairComputerBg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.repair__computer__container {
+  padding: 48px 0;
+}
+
+.repair__computer__title {
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 120%;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 28px;
+}
+
+.repair__computer__sponsors__block {
+  padding: 28px 0;
+  border-top: 3px solid rgb(231, 116, 46);
+  border-bottom: 3px solid rgb(231, 116, 46);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 23px;
+  justify-content: center;
+  margin-bottom: 28px;
+}
+
+.repair__computer__sponsors__img {
+  width: 134px;
+  height: 78px;
+}
+
+.repair__computer__subtitle {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 140%;
+  text-align: center;
+  text-transform: uppercase;
+}
