@@ -7,6 +7,7 @@ import Contact from "./pages/Contact/Contact";
 import PriceList from "./pages/PriceList/PriceList";
 import Reviews from "./pages/Reviews/Reviews";
 import Blog from "./pages/Blog/Blog";
+import SinglePage from "./pages/SinglePage/SinglePage";
 
 const App: React.FC = () => {
   return (
@@ -18,6 +19,7 @@ const App: React.FC = () => {
           <Route path="price-list" element={<PriceList/>} />
           <Route path="reviews" element={<Reviews/>} />
           <Route path="blog" element={<Blog/>} />
+          <Route path="single-page:id" element={<SinglePage />} />
       </Route>
     </Routes>
   );

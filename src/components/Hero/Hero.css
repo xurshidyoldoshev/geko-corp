@@ -57,16 +57,16 @@
   margin-top: 27px;
 }
 
-.modal__nav__list > li {
+.modal__nav__list > a {
   padding: 16px 0;
   border-top: 1px solid rgb(231, 116, 46);
 }
 
-.modal__nav__list > li:last-child {
+.modal__nav__list > a:last-child {
   border-bottom: 1px solid rgb(231, 116, 46);
 }
 
-.modal__nav__list > li > a {
+.modal__nav__list > a {
   color: rgb(255, 255, 255);
   font-size: 18px;
   font-weight: 600;

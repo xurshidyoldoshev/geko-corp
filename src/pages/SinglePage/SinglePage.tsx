@@ -13,7 +13,6 @@ const SinglePage = () => {
   }
 
   const { blogCardData } = context;
-  console.log(blogCardData);
 
   return (
     <>

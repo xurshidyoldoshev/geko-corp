@@ -1,0 +1,11 @@
+[33mcommit b8946bade3f2792921763dd186ac59c4cc3cd754[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Author: Xurshid Yo'ldoshev <yuldoshovx0218@gmail.com>
+Date:   Mon Sep 2 15:17:05 2024 +0500
+
+    geco-corp project ts + react by Xurshid Yoldoshev
+
+[33mcommit 9cb458a7d6251ed76cca26db05fe37b258d43e07[m
+Author: Xurshid Yo'ldoshev <yuldoshovx0218@gmail.com>
+Date:   Tue Aug 27 13:27:22 2024 +0500
+
+    Initialize project using Create React App

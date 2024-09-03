@@ -191,26 +191,14 @@ function Hero() {
                 </a>
               </div>
             </div>
-            <ul className="modal__nav__list">
-              <li>
-                <a href="/">главная</a>
-              </li>
-              <li>
-                <a href="/about">о компании</a>
-              </li>
-              <li>
-                <a href="/contact">контакты</a>
-              </li>
-              <li>
-                <a href="/price-list">прайс-лист</a>
-              </li>
-              <li>
-                <a href="/reviews">отзывы</a>
-              </li>
-              <li>
-                <a href="/blog">блог</a>
-              </li>
-            </ul>
+            <div className="modal__nav__list">
+              <a href="/">главная</a>
+              <a href="/about">о компании</a>
+              <a href="/contact">контакты</a>
+              <a href="/price-list">прайс-лист</a>
+              <a href="/reviews">отзывы</a>
+              <a href="/blog">блог</a>
+            </div>
           </div>
         </div>
       )}
